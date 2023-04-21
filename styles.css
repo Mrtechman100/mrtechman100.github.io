@@ -1,0 +1,16 @@
+/*Colors used
+Bodybg- #CABB9D
+sidebar- #49656A
+sidebartxt- white
+HBhover- #49656A
+Text- black */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #cabb9d;
+}
+
