@@ -2,25 +2,31 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, intial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style1.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="cookbook.html">Home</a>
-            <a href="cookies.html">Cookies</a>
-            <a href="breads.html">Breads</a>
-            <a href="bardesserts.html">Bar Desserts</a>
-            <a href="randomdesserts.html">Misc. Desserts</a>
-        </div>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="cookbook.html"><li>Home</li></a>
+                    <a href="cookies.html"><li>Cookies</li></a>
+                    <a href="breads.html"><li>Breads</li></a>
+                    <a href="bardesserts.html"><li>Bar Desserts</li></a>
+                    <a href="randomdesserts.html"><li>Misc. Desserts</li></a>
+                </ul>
+            </div>
+        </nav>
 
         <div id="main">
             <ul>
-                <li id="cookie"><button class="openbtn" onclick="openNav()"><img src="img/hamburger.png" id="hamgaber"></button></li>
                 <li id="cookie"><a href="#">Dessert</a></li>
             </ul>
             <br>
