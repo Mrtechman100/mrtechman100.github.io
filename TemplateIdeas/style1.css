@@ -121,15 +121,22 @@ html {
       font-family:  'Orbitron', sans-serif;
     }
   
-  #cookie {
-      float: left ;
+  #recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
   }
   
-  #cookie a {
+  #recipes a {
     display: flex;
     justify-content: space-evenly;
-    padding: 8px;
     color: black;
+    text-decoration: none
+  }
+
+  #recipes a:hover {
+    color: #49656A;
   }
   
   hr {
@@ -231,8 +238,7 @@ html {
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
+#menu {
   position: absolute;
   width: 30%;
   margin: -100px 0 0 -75px;
