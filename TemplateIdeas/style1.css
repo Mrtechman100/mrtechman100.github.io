@@ -126,6 +126,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: black;
+    padding: 0;
   }
   
   #recipes a {
@@ -146,8 +147,8 @@ html {
 #menuToggle {
     display: block;
     position: relative;
-    top: 30px;
-    left: 30px;
+    top: 25px;
+    left: 25px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
