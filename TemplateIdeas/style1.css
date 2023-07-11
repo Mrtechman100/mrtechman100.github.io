@@ -124,9 +124,10 @@ html {
   #recipes {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    bottom: 40px;
     justify-content: space-evenly;
     color: black;
-    padding: 0;
   }
   
   #recipes a {
