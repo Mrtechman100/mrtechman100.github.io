@@ -9,17 +9,23 @@
 
     <body>
         <!--Hidden Sidebar links-->
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="cookbook.html">Home</a>
-            <a href="cookies.html">Cookies</a>
-            <a href="breads.html">Breads</a>
-            <a href="bardesserts.html">Bar Desserts</a>
-            <a href="randomdesserts.html">Misc. Desserts</a>
-        </div>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="cookbook.html"><li>Home</li></a>
+                    <a href="cookies.html"><li>Cookies</li></a>
+                    <a href="breads.html"><li>Breads</li></a>
+                    <a href="bardesserts.html"><li>Bar Desserts</li></a>
+                    <a href="randomdesserts.html"><li>Misc. Desserts</li></a>
+                </ul>
+            </div>
+        </nav>
 
         <div id="main">
-            <button class="openbtn" onclick="openNav()"><img src="img/hamburger.png" alt="hamburger" id="hamgaber"></button>
             <h1 id="Title">Cookbook</h1>
             <div class="container-all">
                 <div class="container">
